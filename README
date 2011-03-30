@@ -27,3 +27,6 @@ express-561-test clear
 To start a "nice" server that doesn't crash, run:
 express-561-test niceserver
 
+To check out the error, examine the getObjectsCrash and getObjectsNice functions.
+getObjectCrash closes the mongoose connection before calling render.
+getObjectNice does not close the connection.
