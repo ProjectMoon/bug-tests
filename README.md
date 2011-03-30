@@ -2,11 +2,11 @@ Express issue 561 test
 ----------------------
 
 Dependencies:  
-  * mongodb running on localhost with no security (i.e. a "trusted" environment)
-  * express
-  * mongoose
-  * ejs
-  * npm (not REALLY necessary, but makes things a lot easier)
+    * mongodb running on localhost with no security (i.e. a "trusted" environment)
+    * express
+    * mongoose
+    * ejs
+    * npm (not REALLY necessary, but makes things a lot easier)
 
 To build (make sure NPM has write access, or adjust for sudo):
     make
